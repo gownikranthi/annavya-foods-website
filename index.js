@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   // WhatsApp integration
-  const whatsappNumber = '919618229651'; // +91 96182296518
+  const whatsappNumber = '9618296518'; // +91 96182296518
   const whatsappMessage = encodeURIComponent(
     'Hello ANNAVYA FOODS, I would like to know more about your millet products.'
   );
@@ -29,7 +29,7 @@ export default function Home() {
   const products = [
     { name: 'Foxtail Millet', icon: '🌾', local: 'Korralu' },
     { name: 'Little Millet', icon: '🌱', local: 'Samalu' },
-    { name: 'Kodo Millet', icon: '🌿', local: 'Varagu' },
+    { name: 'Kodo Millet', icon: '🌿', local: 'Aarakalu' },
     { name: 'Browntop Millet', icon: '🍃', local: 'Korale' },
     { name: 'Barnyard Millet', icon: '🌾', local: 'Udalu' },
     { name: 'Ragi', icon: '🌾', local: 'Finger Millet' },
@@ -343,7 +343,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
             <div>
               <h3 className="font-bold text-green-900 text-lg mb-2">WhatsApp</h3>
-              <p className="text-gray-600">+91 96182296518</p>
+              <p className="text-gray-600">+91 9618296518</p>
             </div>
             <div>
               <h3 className="font-bold text-green-900 text-lg mb-2">Location</h3>
